@@ -4,11 +4,11 @@
 class FocusOn < Formula
   desc 'Simple cli to send hourly focus reminders.'
   homepage 'https://github.com/Velrok/focus-on-mac'
-  url 'https://github.com/Velrok/focus-on-mac/releases/download/v0.1.0/focus-on-mac-macos'
-  sha256 '774ddeb91b677e2da3c611fdf78de0b7cc0cb2368822ea665edc194d5c05cc44'
-  version '0.1.0'
+  url 'https://github.com/Velrok/focus-on-mac/releases/download/v0.1.1/focus-on'
+  sha256 'c601464ccd3b46a4e3b4e688f7bd07a7b1371d2669d77bc8bf881ce7974d05b7'
+  version '0.1.1'
 
   def install
-    bin.install 'focus-on-mac-macos'
+    bin.install 'focus-on'
   end
 end
