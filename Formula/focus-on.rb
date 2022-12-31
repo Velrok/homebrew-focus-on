@@ -1,7 +1,7 @@
 # Documentation: https://docs.brew.sh/Formula-Cookbook
 #                https://rubydoc.brew.sh/Formula
 # PLEASE REMOVE ALL GENERATED COMMENTS BEFORE SUBMITTING YOUR PULL REQUEST!
-class FocusOnMac < Formula
+class FocusOn < Formula
   desc 'Simple cli to send hourly focus reminders.'
   homepage 'https://github.com/Velrok/focus-on-mac'
   url 'https://github.com/Velrok/focus-on-mac/releases/download/v0.1.0/focus-on-mac-macos'
